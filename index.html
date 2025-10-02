@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const dataAtualEl=document.getElementById("data-atual");
 
   let i=0,answers=[],timer=null;
-  const QUESTION_TIME=5;
+  const QUESTION_TIME=10;
 
   btnBegin.onclick=()=>{sStart.style.display="none";sQuiz.style.display="block";i=0;answers=[];render();};
   btnRestart.onclick=()=>{sResult.style.display="none";sStart.style.display="block";};
